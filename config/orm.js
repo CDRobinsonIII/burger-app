@@ -54,20 +54,20 @@ const orm = {
         });
     },
 
-    insertOne: function(table, columns, values, cb) {
+    insertOne: function(table, cols, vals, cb) {
         const queryString = 
             "INSERT INTO " + 
             table + 
             " (" +
-            columns.toString() +
+            cols.toString() +
             ") " +
             "VALUES (" +
-            createQmarks(values.length) +
+            createQmarks(vals.length) +
             ") ";
 
         console.log(queryString);
 
-        connection.query(queryString, values, function(err, result) {
+        connection.query(queryString, vals, function(err, result) {
             if (err) {
                 throw err;
             }
