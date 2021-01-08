@@ -75,7 +75,7 @@ const orm = {
         });
     },
 
-    updateOne: function(table, objColVals, condition, cb) {
+    updateOne: function(table, objColVals, condition, cb) { 
         const queryString = 
             "UPDATE " + 
             table + 
@@ -96,7 +96,7 @@ const orm = {
 
     // Function to help manage the additions. 
     deleteOne: function(table, condition, cb) {
-        const queryString = "DELETE FROM TABLE " + table + " WHERE " + condition;
+        const queryString = "DELETE FROM " + table + " WHERE " + condition;
 
     console.log(queryString);
 

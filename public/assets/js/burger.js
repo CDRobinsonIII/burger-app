@@ -1,8 +1,8 @@
 // AJAX calls for onclick and submit events.
 
 // Put AJAX calls in a load on ready function.
-$(function () {
-    $(".create.form").on("submit", function (event) {
+$(document).on("ready", function () {
+    $(".create-form").on("submit", function (event) {
         event.preventDefault();
 
         var newBurger = {
