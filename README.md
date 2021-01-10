@@ -5,6 +5,7 @@
 The mission of this project was to create a burger application using Express, MySQL, and Handlebars. The application asks for user input on what type of hamburgers they would like to order. The hamburgers are stored in a database called burgers. They can then devour the hamburger, where it is then moved to a devoured list. You can delete the hamburgers in the devoured list or leave them. For this application I used the MVC (model, view, controller) framework. For the model I used a MySQL database and connection. For the views I used Handlebars from Express. For the controller (server) I used Express.
 
 ## Table of Contents
+* [Description](#description)
 * [Technologies Used](#technologies-used)
 * [Installation](#installation)
 * [Usage](#usage)
@@ -12,6 +13,7 @@ The mission of this project was to create a burger application using Express, My
 * [Contributing](#contributing)
 * [Tests](#tests)
 * [Questions](#questions)
+* [Screenshot of burger application in use](#screenshot-of-burger-application-in-use)
 
 
 ## Technologies Used
@@ -35,7 +37,16 @@ NPM install
 ## Usage 
 You have two options to run the burger application. 
 <ol>
-   <li>If you fork the repository, after you install the required modules mentioned above, you will have to enter the following command line: node server.js. Then go to your browser and enter this url: http://localhost:3000/ </li> <li>You can visit the deployed application on Heroku here: Once you start the application, you can create new hamburgers, devour your hamburgers, or delete your hamburgers from the devoured list. </li>
+   <li>If you fork the repository, after you install the required modules mentioned above, you will have to enter the following command line: 
+
+   ```   
+   node server.js. 
+   ```
+   
+   Then go to your browser and enter this link: http://localhost:3000/</li> 
+   <li>You can also visit the deployed application via the deployed Heroku link: https://hamburger-application.herokuapp.com/
+   <p></p>
+    Once you start the application, you can create new hamburgers, devour your hamburgers, or delete your hamburgers from the devoured list. </li>
 </ol>
 
 
@@ -52,3 +63,6 @@ There are no built-in tests for the burger application. You can test the applica
 If you have any questions about this burger application or to report any issues with the application please email me at charlesdalerobinson@gmail.com.
 Please visit my github page to review my other repositories: [CDRobinsonIII](https://github.com/CDRobinsonIII)
 
+## Screenshot of burger application in use
+
+![Here is a screenshot of the index page of the burger application.](/public/assets/img/burger-application_02.jpg)
